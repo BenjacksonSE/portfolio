@@ -7,9 +7,9 @@ const Nav = ({showNav, setShowNav}) => {
       <ul className={classes.nav__list}>
         <li className={classes.nav__list__item}><a href='#hero'>Home</a></li>
         <li className={classes.nav__list__item}><a href='#about'>About</a></li>
-        <li className={classes.nav__list__item}><a href='#skills'>Services</a></li>
+        <li className={classes.nav__list__item}><a href='#skills'>Skills</a></li>
         <li className={classes.nav__list__item}><a href='#projects'>Projects</a></li>
-        <li className={classes.nav__list__item}><a href='#'>Contact</a></li>
+        <li className={classes.nav__list__item}><a href='#contact'>Contact</a></li>
       </ul>
     </div>
   )

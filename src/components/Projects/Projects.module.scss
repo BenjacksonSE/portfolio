@@ -75,14 +75,21 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: translateY(0);
+      transform: translateY(100%);
       transition: 0.5s ease-in-out;
+      h3{
+        color: #fff;
+        font-size: 1em;
+      }
     }
     
   }
   &__workBox:hover{
     .imgBox{
       transform: translateY(-100%);
+    }
+    .textBox{
+      transform: translateY(0);
     }
   }
 }
