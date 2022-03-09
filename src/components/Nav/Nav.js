@@ -6,7 +6,7 @@ const Nav = ({showNav, setShowNav}) => {
     <div className={!showNav ? `${classes.nav} ${classes.hideNav}` : `${classes.nav}`}>
       <ul className={classes.nav__list}>
         <li className={classes.nav__list__item}><a href='#hero'>Home</a></li>
-        <li className={classes.nav__list__item}><a href='#'>About</a></li>
+        <li className={classes.nav__list__item}><a href='#about'>About</a></li>
         <li className={classes.nav__list__item}><a href='#'>Services</a></li>
         <li className={classes.nav__list__item}><a href='#'>Projects</a></li>
         <li className={classes.nav__list__item}><a href='#'>Contact</a></li>
