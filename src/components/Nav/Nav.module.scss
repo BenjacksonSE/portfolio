@@ -1,0 +1,13 @@
+@import './../../styles/variables.scss';
+
+.nav{
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  background: $white2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
