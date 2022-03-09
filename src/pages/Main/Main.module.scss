@@ -13,3 +13,13 @@
   width: 100%;
   left: 0;
 }
+
+@media (max-width: 992px){
+  .main{
+    width: 100%;
+    left: 0;
+  }
+  .hideNav{
+    left: 100%;
+  }
+}

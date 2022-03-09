@@ -49,3 +49,13 @@
 .hideNav {
   width: 0;
 }
+
+@media (max-width: 992px){
+  .nav{
+    left: -100%;
+  }
+  .hideNav {
+    left: 0;
+    width: 100%;
+  }
+}
