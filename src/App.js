@@ -4,7 +4,7 @@ import Main from "./pages/Main/Main";
 import {useState} from 'react';
 
 function App() {
-  const [showNav, setShowNav] = useState(true);
+  const [showNav, setShowNav] = useState(false);
   return (
     <div className="App">
       <Nav showNav={showNav} setShowNav={setShowNav}/>
