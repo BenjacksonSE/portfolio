@@ -6,4 +6,10 @@
   left: 300px;
   background-color: $white;
   min-height: 100vh;
+  transition: width 0.5s, left 0.5s;
+}
+
+.hideNav{
+  width: 100%;
+  left: 0;
 }

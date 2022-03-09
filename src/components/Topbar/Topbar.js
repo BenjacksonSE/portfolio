@@ -2,12 +2,13 @@ import React from 'react'
 import classes from './Topbar.module.scss'
 import { FaBars } from 'react-icons/fa'
 
-const Topbar = () => {
+
+const Topbar = ({showNav, setShowNav}) => {
   return (
-    <div className={classes.topbar}>
+    <div className={!showNav ? `${classes.topbar} ${classes.hideNav}` : `${classes.topbar}`}>
       <a href='#' className={classes.logo}>Ben Jackson</a>
-      <div className={classes.toggle}>
-        <FaBars />
+      <div className={!showNav ? `${classes.toggle} ${classes.hideNav}` : `${classes.toggle}`} onClick={() => setShowNav(!showNav)} role="button">
+        <FaBars/>
       </div>
     </div>
   )

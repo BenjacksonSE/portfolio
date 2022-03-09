@@ -1,13 +1,15 @@
 import classes from './App.module.scss'
 import Nav from "./components/Nav/Nav";
 import Main from "./pages/Main/Main";
+import {useState} from 'react';
 
 function App() {
+  const [showNav, setShowNav] = useState(true);
   return (
     <div className="App">
-      <Nav />
+      <Nav showNav={showNav} setShowNav={setShowNav}/>
       <div className={classes.container}>
-        <Main />
+        <Main showNav={showNav} setShowNav={setShowNav}/>
       </div>
       
       
