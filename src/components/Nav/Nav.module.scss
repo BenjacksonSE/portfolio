@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  transition: width 0.5s;
+  transition: width 0.5s, left 0.5s;
 
   &__list{
     position: relative;
@@ -57,5 +57,8 @@
   .hideNav {
     left: 0;
     width: 100%;
+  }
+  .nav__list{
+    padding: 20px 20px;
   }
 }
