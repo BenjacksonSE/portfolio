@@ -1,4 +1,9 @@
-.container{
-  position: relative;
-  width: 100%;  
+@import './../../styles/variables.scss';
+
+.main {
+  position: absolute;
+  width: calc(100% - 300px);
+  left: 300px;
+  background-color: $white;
+  min-height: 100vh;
 }

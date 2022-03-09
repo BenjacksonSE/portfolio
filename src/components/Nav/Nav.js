@@ -4,12 +4,12 @@ import classes from './Nav.module.scss'
 const Nav = () => {
   return (
     <div className={classes.nav}>
-      <ul>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#'>About</a></li>
-        <li><a href='#'>Services</a></li>
-        <li><a href='#'>Projects</a></li>
-        <li><a href='#'>Contact</a></li>
+      <ul className={classes.nav__list}>
+        <li className={classes.nav__list__item}><a href='#'>Home</a></li>
+        <li className={classes.nav__list__item}><a href='#'>About</a></li>
+        <li className={classes.nav__list__item}><a href='#'>Services</a></li>
+        <li className={classes.nav__list__item}><a href='#'>Projects</a></li>
+        <li className={classes.nav__list__item}><a href='#'>Contact</a></li>
       </ul>
     </div>
   )
