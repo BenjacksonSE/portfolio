@@ -6,7 +6,7 @@ const Contact = () => {
     <section className={`${classes.contact} ${classes.adjust}`} id='contact'>
       <div className={classes.title}>
         <h2>Get in Contact</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac congue orci. Morbi non condimentum lorem. </p>
+        <p>If you are interested in working with me, find my contact info below or fill out the form.</p>
       </div>
       <div className={classes.contactForm}>
         <div className={classes.contactForm__row}>
