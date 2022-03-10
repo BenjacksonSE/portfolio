@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className={`${classes.about} ${classes.adjust}`} id='about'>
       <div className={classes.title}>
-        <h2>About Me</h2>
+        <h2>Me, Myself, and I</h2>
       </div>
       <div className={classes.content}>
         <div className={classes.content__text}>
