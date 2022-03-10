@@ -6,7 +6,7 @@ import { FaBars } from 'react-icons/fa'
 const Topbar = ({showNav, setShowNav}) => {
   return (
     <div className={!showNav ? `${classes.topbar} ${classes.hideNav}` : `${classes.topbar}`}>
-      <a href='#' className={classes.logo}>Ben Jackson</a>
+      <a href='#hero' className={classes.logo}>Ben Jackson</a>
       <div className={!showNav ? `${classes.toggle} ${classes.hideNav}` : `${classes.toggle}`} onClick={() => setShowNav(!showNav)} role="button">
         <FaBars/>
       </div>

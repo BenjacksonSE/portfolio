@@ -3,9 +3,9 @@ import classes from "./Projects.module.scss";
 import project1 from "./../../images/img1.jpg"
 import project2 from "./../../images/img2.jpg"
 import project3 from "./../../images/img3.jpg"
-import project4 from "./../../images/img4.jpg"
-import project5 from "./../../images/img5.jpg"
-import project6 from "./../../images/img6.jpg"
+// import project4 from "./../../images/img4.jpg"
+// import project5 from "./../../images/img5.jpg"
+// import project6 from "./../../images/img6.jpg"
 
 
 const Projects = () => {
@@ -18,38 +18,38 @@ const Projects = () => {
       <div className={classes.content}>
         <div className={classes.content__workBox}>
           <div className={classes.imgBox}>
-            <img src={project1}/>
+            <img src={project1} alt='img'/>
           </div>
          <div class={classes.textBox}>
             <h3>Travel App</h3>
             <p className={classes.textBox__textContent}>Fullstack itinerary planning app allowing users to create, edit, and share itineraries and plan getaways.   Built using React, Leaflet and Ruby on Rails. </p>
-            <a href='#'>Demo</a>
+            <a href='https://github.com/BenjacksonSE/travel-app' target="_blank" rel="noreferrer">Demo</a>
             <p> | </p>
-            <a href='https://github.com/BenjacksonSE/travel-app' target="_blank">Github</a>
+            <a href='https://github.com/BenjacksonSE/travel-app' target="_blank" rel="noreferrer">Github</a>
           </div>
         </div>
         <div className={classes.content__workBox}>
           <div className={classes.imgBox}>
-            <img src={project2}/>
+            <img src={project2} alt='img'/>
           </div>
           <div class={classes.textBox}>
             <h3>Stock Dashboard</h3>
             <p className={classes.textBox__textContent}>A tool to track and analize stocks aswell as manage a stock portfolio. Built using React and ChartJS.  Deployed on Netlify.</p>
-            <a href='https://financial-dashboard-project.netlify.app/' target="_blank">Demo</a>
+            <a href='https://financial-dashboard-project.netlify.app/' target="_blank" rel="noreferrer">Demo</a>
             <p> | </p>
-            <a href='https://github.com/dahyman91/financial-dashboard' target="_blank">Github</a>
+            <a href='https://github.com/dahyman91/financial-dashboard' target="_blank" rel="noreferrer">Github</a>
           </div>
         </div>
         <div className={classes.content__workBox}>
           <div className={classes.imgBox}>
-            <img src={project3}/>
+            <img src={project3} alt='img'/>
           </div>
           <div class={classes.textBox}>
             <h3>Notes App</h3>
             <p className={classes.textBox__textContent}>Fullstack note taking app.  Users can create, edit, and delete notes and notebooks. Built using React and Ruby. Deployed on Netlify.</p>
-            <a href='https://distracted-lichterman-ceb7b8.netlify.app/' target="_blank">Demo</a>
+            <a href='https://distracted-lichterman-ceb7b8.netlify.app/' target="_blank" rel="noreferrer">Demo</a>
             <p> | </p>
-            <a href='https://github.com/jmezalon/NotesApp' target="_blank">Github</a>
+            <a href='https://github.com/jmezalon/NotesApp' target="_blank" rel="noreferrer">Github</a>
           </div>
         </div>
         {/* <div className={classes.content__workBox}>

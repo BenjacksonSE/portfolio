@@ -1,6 +1,5 @@
 import React from 'react'
 import classes from './Nav.module.scss'
-import { FaRegMoon } from "react-icons/fa";
 
 const Nav = ({showNav, setShowNav, darkMode, setDarkMode}) => {
   return (

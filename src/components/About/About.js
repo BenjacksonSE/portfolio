@@ -15,7 +15,7 @@ const About = () => {
           </p>
         </div>
         <div className={classes.content__imgBox}>
-          <img src={image1} />
+          <img src={image1} alt='img'/>
         </div>
       </div>
     </section>
