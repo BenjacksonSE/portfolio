@@ -13,7 +13,7 @@ const Projects = () => {
     <section className={`${classes.projects} ${classes.adjust}`} id='projects'>
       <div className={classes.title}>
         <h2>Recent Works</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac congue orci. Morbi non condimentum lorem. </p>
+        <p>These are some of the projects I have been working on.</p>
       </div>
       <div className={classes.content}>
         <div className={classes.content__workBox}>
@@ -29,7 +29,11 @@ const Projects = () => {
             <img src={project2}/>
           </div>
           <div class={classes.textBox}>
-            <h3>Project02</h3>
+            <h3>Stock Dashboard</h3>
+            <p className={classes.textBox__textContent}>A tool to track and analize stocks aswell as manage a stock portfolio. Built using React and ChartJS.  Deployed on Netlify.</p>
+            <a href='https://financial-dashboard-project.netlify.app/' target="_blank">Demo</a>
+            <p> | </p>
+            <a href='https://github.com/dahyman91/financial-dashboard' target="_blank">Github</a>
           </div>
         </div>
         <div className={classes.content__workBox}>
@@ -38,7 +42,7 @@ const Projects = () => {
           </div>
           <div class={classes.textBox}>
             <h3>Notes App</h3>
-            <p className={classes.textBox__textContent}>Fullstack note taking app.  Users can create, edit, and delete notes and notebooks.  Deployed on netlify.</p>
+            <p className={classes.textBox__textContent}>Fullstack note taking app.  Users can create, edit, and delete notes and notebooks. Built using React and Ruby. Deployed on Netlify.</p>
             <a href='https://distracted-lichterman-ceb7b8.netlify.app/' target="_blank">Demo</a>
             <p> | </p>
             <a href='https://github.com/jmezalon/NotesApp' target="_blank">Github</a>
