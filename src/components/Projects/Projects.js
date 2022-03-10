@@ -20,8 +20,12 @@ const Projects = () => {
           <div className={classes.imgBox}>
             <img src={project1}/>
           </div>
-          <div class={classes.textBox}>
-            <h3>Project01</h3>
+         <div class={classes.textBox}>
+            <h3>Travel App</h3>
+            <p className={classes.textBox__textContent}>Fullstack itinerary planning app allowing users to create, edit, and share itineraries and plan getaways.   Built using React, Leaflet and Ruby on Rails. </p>
+            <a href='#'>Demo</a>
+            <p> | </p>
+            <a href='https://github.com/BenjacksonSE/travel-app' target="_blank">Github</a>
           </div>
         </div>
         <div className={classes.content__workBox}>
@@ -48,7 +52,7 @@ const Projects = () => {
             <a href='https://github.com/jmezalon/NotesApp' target="_blank">Github</a>
           </div>
         </div>
-        <div className={classes.content__workBox}>
+        {/* <div className={classes.content__workBox}>
           <div className={classes.imgBox}>
             <img src={project4}/>
           </div>
@@ -71,7 +75,7 @@ const Projects = () => {
           <div class={classes.textBox}>
             <h3>Project06</h3>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
