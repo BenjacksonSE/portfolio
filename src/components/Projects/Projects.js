@@ -37,7 +37,11 @@ const Projects = () => {
             <img src={project3}/>
           </div>
           <div class={classes.textBox}>
-            <h3>Project03</h3>
+            <h3>Notes App</h3>
+            <p className={classes.textBox__textContent}>Fullstack note taking app.  Users can create, edit, and delete notes and notebooks.  Deployed on netlify.</p>
+            <a href='https://distracted-lichterman-ceb7b8.netlify.app/' target="_blank">Demo</a>
+            <p> | </p>
+            <a href='https://github.com/jmezalon/NotesApp' target="_blank">Github</a>
           </div>
         </div>
         <div className={classes.content__workBox}>
