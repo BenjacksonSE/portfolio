@@ -43,6 +43,13 @@
   &__text{
     width: 49%;
     min-width: 49%;
+
+    p{
+      font-size: 1em;
+      letter-spacing: 1px;
+      font-weight: 400;
+      line-height: 23px;
+    }
   }
   &__imgBox{
     margin-left: 40px;
