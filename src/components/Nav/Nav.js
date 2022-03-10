@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Nav.module.scss'
+import { FaRegMoon } from "react-icons/fa";
 
 const Nav = ({showNav, setShowNav}) => {
   return (
@@ -12,6 +13,7 @@ const Nav = ({showNav, setShowNav}) => {
         <li className={classes.nav__list__item} onClick={() => setShowNav(!showNav)} role="button"><a href='#contact'>Contact</a></li>
       </ul>
       <div className={classes.themeSwitch}>
+        <FaRegMoon />
       </div>
     </div>
     
