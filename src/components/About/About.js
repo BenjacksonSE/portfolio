@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './About.module.scss';
-import image1 from './../../images/bg1.jpg';
+// import image1 from './../../images/bg1.jpg';
 
 const About = () => {
   return (
@@ -15,7 +15,7 @@ const About = () => {
           </p>
         </div>
         <div className={classes.content__imgBox}>
-          <img src={image1} alt='img'/>
+          <img src='image1' alt='No pic here yet'/>
         </div>
       </div>
     </section>
