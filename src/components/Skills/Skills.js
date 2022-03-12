@@ -23,7 +23,7 @@ const Skills = () => {
         </div>
         <div className={classes.content__box}>
           <img src={skill2} alt='img'/>
-          <h2>Ruby on Rails</h2>
+          <h2>Node.js</h2>
           <p>The language I use when createing SQL databases for my backends</p>
         </div>
         <div className={classes.content__box}>
