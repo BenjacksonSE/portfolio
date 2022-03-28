@@ -10,7 +10,7 @@ const Nav = ({showNav, setShowNav, darkMode, setDarkMode}) => {
         <li className={classes.nav__list__item} onClick={() => setShowNav(!showNav)} role="button"><a href='#skills'>Skills</a></li>
         <li className={classes.nav__list__item} onClick={() => setShowNav(!showNav)} role="button"><a href='#projects'>Projects</a></li>
         <li className={classes.nav__list__item} onClick={() => setShowNav(!showNav)} role="button"><a href='#contact'>Contact</a></li>
-        <li className={classes.nav__list__item} onClick={() => setShowNav(!showNav)} role="button"><a href='#contact'>Blog (Comming Soon)</a></li>
+        <li className={classes.nav__list__item} onClick={() => setShowNav(!showNav)} role="button"><a href='https://benblogapp.herokuapp.com/'>Blog</a></li>
       </ul>
       {/* <div className={classes.themeSwitch} onClick={() => setDarkMode(!darkMode)} role='button'>
         <FaRegMoon />
