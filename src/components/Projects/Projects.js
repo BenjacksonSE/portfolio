@@ -18,18 +18,6 @@ const Projects = () => {
       <div className={classes.content}>
         <div className={classes.content__workBox}>
           <div className={classes.imgBox}>
-            <img src={project1} alt='img'/>
-          </div>
-         <div class={classes.textBox}>
-            <h3>Travel App</h3>
-            <p className={classes.textBox__textContent}>Fullstack itinerary planning app allowing users to create, edit, and share itineraries and plan getaways.   Built using React, Leaflet and Ruby on Rails. </p>
-            <a href='https://github.com/BenjacksonSE/travel-app' target="_blank" rel="noreferrer">Demo</a>
-            <p> | </p>
-            <a href='https://github.com/BenjacksonSE/travel-app' target="_blank" rel="noreferrer">Github</a>
-          </div>
-        </div>
-        <div className={classes.content__workBox}>
-          <div className={classes.imgBox}>
             <img src={project2} alt='img'/>
           </div>
           <div class={classes.textBox}>
@@ -50,6 +38,18 @@ const Projects = () => {
             <a href='https://distracted-lichterman-ceb7b8.netlify.app/' target="_blank" rel="noreferrer">Demo</a>
             <p> | </p>
             <a href='https://github.com/jmezalon/NotesApp' target="_blank" rel="noreferrer">Github</a>
+          </div>
+        </div>
+        <div className={classes.content__workBox}>
+          <div className={classes.imgBox}>
+            <img src={project1} alt='img'/>
+          </div>
+         <div class={classes.textBox}>
+            <h3>Travel App</h3>
+            <p className={classes.textBox__textContent}>Fullstack itinerary planning app allowing users to create, edit, and share itineraries and plan getaways.   Built using React, Leaflet and Ruby on Rails. </p>
+            <a href='https://github.com/BenjacksonSE/travel-app' target="_blank" rel="noreferrer">Demo</a>
+            <p> | </p>
+            <a href='https://github.com/BenjacksonSE/travel-app' target="_blank" rel="noreferrer">Github</a>
           </div>
         </div>
         {/* <div className={classes.content__workBox}>
