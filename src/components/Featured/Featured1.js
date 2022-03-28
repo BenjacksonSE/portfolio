@@ -10,12 +10,17 @@ const Featured1 = () => {
       </div>
       <div className={classes.content}>
         <div className={classes.content__imgBoxR}>
-          <img src={algo} alt='No pic here yet'/>
+          <img className={classes.content__projectImg} src={algo} alt='No pic here yet'/>
         </div>
         <div className={classes.content__text}>
           <p>
-            <br></br><br></br>Hi, my name is Ben Jackson, I am a Full Stack developer with a background in education.  My experience has given me a strong foundation in teamwork, management, and people focused solutions.  Recently, I graduated from Flatiron School’s immersive software development bootcamp.  I have been coding for over 5 years, however, only recently began pursuing it as a full time career, and I couldn’t have made a better choice.<br></br><br></br>I am well-organized, independent, and a problem solver.  I am an avid runner, fanatical skier, novice cook, and have just started a new hobby of reading and tea drinking.<br></br><br></br>I am interested in Front End and Full Stack development and working on ambitious projects with equally as ambitious people.
+            <br></br>After learning all the sorting algorithms in preparation for interviews, I decided to dig a little deeper and create an application that showed how each works in real time.<br></br><br></br>This project is built totally in React and Javascript using both class based and functional based components.  This challenged my use of async functions and class based components which afterwards I feel much more confident with.<br></br><br></br>Technologies used: React, Javascript, HTML, CSS
           </p>
+          <div className={classes.linkContainer}>
+            <a href='https://coruscating-manatee-8ac8c9.netlify.app/' target="_blank" rel="noreferrer" className={classes.demoLink}>Demo</a>
+            <a href='https://github.com/BenjacksonSE/sorting-visualizer' target="_blank" rel="noreferrer" className={classes.demoLink}>Github</a>
+          </div>
+          
         </div>
       </div>
     </section>
