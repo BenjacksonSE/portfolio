@@ -13,7 +13,7 @@ const Projects = () => {
     <section className={`${classes.projects} ${classes.adjust}`} id='projects'>
       <div className={classes.title}>
         <h2>Recent Works</h2>
-        <p>These are some of the projects I have been working on.</p>
+        <p>These are some of the other projects I have been working on.</p>
       </div>
       <div className={classes.content}>
         <div className={classes.content__workBox}>
